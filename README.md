@@ -25,3 +25,25 @@ Due to company policy, this project needed to be completed entirely in Python. U
 By the end of development, I had designed and built a software solution to the client's specification. The tool enables users to extract vast amounts of data, use dynamic UI elements to tailor the information they need, parse the data, and export it to a convenient file format.
 
 This software was built on a tight schedule but still includes various layers of error handling to ensure users do not encounter unexpected results.
+
+## Screenshots
+
+## Geography Filter
+All elements on screen are generated dynamically depending on the information given on the initial data import.
+<br>
+This screen allows the user to filter what information they want to parse, the information present on this screen is influenced by what was selected in the following screenshot.
+![](https://github.com/SvenMC/Decomp/blob/main/geography_selection.png)
+
+## Geography Dimensions
+This screen allows the user to refine which level they want to select data from, and also which data they want to see in the previous screenshot. 
+<br>
+<p align="center">
+  <img src="https://github.com/SvenMC/Decomp/blob/main/dimension_filter.png" />
+</p>
+
+
+## Geography list
+I was concious that this software was going to be used on all kinda of screen sizes, so everything can be scaled up and down as needed. As such I wanted to make sure that any text that gets truncated also is given a tooltip that the user can see on hover.
+<p align="center">
+  <img src="https://github.com/SvenMC/Decomp/blob/main/geography_tooltip.png" />
+</p>
